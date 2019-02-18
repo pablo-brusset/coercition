@@ -1,0 +1,75 @@
+.container{
+    background-color: pink;
+    background: linear-gradient(to bottom, pink, pink, yellow);
+    background-position: 100%;
+}
+.navbar{
+    border: 1px solid transparent;
+}
+
+.nav-default{
+    background-color: #000;
+    border-color: #222326;
+}
+
+.navbar-fixed-top{
+    top:0;   
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-highlight-green{
+    color: green;
+}
+
+.navabar-collapse.collapse{
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-right{
+    float: right !important;
+}
+.navbar-logo{
+    width: 494px;
+    height: auto;
+    background-position: top;
+}
+.navbar-default .navbar-brand{
+    color: #FFF;
+}
+.navbar-brand{
+    float: left;
+   background-size: 20px;
+    padding: 0;
+    height: auto;
+    line-height: 1;
+
+}
+
+.navbar-nav{
+    
+}
+    .navbar-right nav-main {
+    width: 100%;
+    margin-right: -17px;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    text-decoration: none;
+
+}
+.text{
+  color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer-default{
+    background: black;
+    position: absolute;
+}
+.footer{
+    padding: 80px 0 50px;
+}
